@@ -1,0 +1,28 @@
+{
+    "name": "panchovm/personal-site",
+    "description": "A simple WordPress Theme for Francisco Vera's personal site",
+    "type": "wordpress-theme",
+    "license": "CC-BY-NC-SA-4.0",
+    "authors": [
+        {
+            "name": "Francisco Vera",
+            "email": "hola@fcovera.info"
+        },
+        {
+            "name": "Felipe Lavín",
+            "email": "felipe@bloom-ux.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0@dev",
+        "wp-coding-standards/wpcs": "dev-master"
+    },
+    "scripts": {
+        "sniff": "phpcs --standard=WordPress . --extensions=php --cache -p --ignore=vendor",
+        "fix": "phpcbf --standard=WordPress . --extensions=php --ignore=vendor"
+    }
+}
