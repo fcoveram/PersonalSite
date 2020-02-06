@@ -1,3 +1,11 @@
+<?php
+/**
+ * Site footer
+ *
+ * @package FcoVeraPersonalSite
+ */
+
+?>
 			<footer class="grid-x align-middle">
 				<div class="cell large-2 medium-4">
 					<a href="#" class="cv">CV en Español</a>

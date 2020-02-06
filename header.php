@@ -1,3 +1,11 @@
+<?php
+/**
+ * Site header
+ *
+ * @package FcoVeraPersonalSite
+ */
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 	<head>
@@ -12,7 +20,7 @@
 			<header class="header-site">
 				<nav class="grid-x align-middle">
 					<div class="cell small-6">
-						<a href="<?php echo esc_url( home_url() ); ?>" class="home">Francisco Vera</a>
+						<a href="<?php echo esc_url( home_url() ); ?>" class="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
 					</div>
 					<div class="cell small-6">
 						<a href="#" class="float-right language">Español</a>

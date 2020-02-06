@@ -1,4 +1,9 @@
 <?php
+/**
+ * Main site template
+ *
+ * @package FcoVeraPersonalSite
+ */
 
 get_header();
 the_post();
