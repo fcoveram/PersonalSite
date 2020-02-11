@@ -111,6 +111,13 @@ class Personal_Site_Template {
 				'social_networks' => _x( 'Social networks', 'nav menu', 'fcovera' ),
 			)
 		);
+
+		add_image_size( 'single-featured', 1045, 460, true );
+		add_image_size( 'single-featured@2x', 1045 * 2, 460 * 2, true );
+		add_image_size( 'portfolio-thumbnail', 275, 340, true );
+		add_image_size( 'portfolio-thumbnail@2x', 275 * 2, 340 * 2, true );
+		add_image_size( 'portfolio-featured', 925, 530, true );
+		add_image_size( 'portfolio-featured@2x', 925, 530, true );
 	}
 
 	/**

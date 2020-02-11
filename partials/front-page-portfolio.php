@@ -27,7 +27,7 @@ if ( ! $projects->have_posts() ) {
 			$projects->the_post();
 			?>
 			<a class="cell xlarge-3 large-4 small-6 work-post" href="<?php the_permalink(); ?>">
-				<div class="img thumb-img"></div>
+				<?php the_post_thumbnail( 'portfolio-thumbnail', array( 'class' => 'img thumb-img' ) ); ?>
 				<p><?php the_title(); ?></p>
 			</a>
 		<?php endwhile; ?>
