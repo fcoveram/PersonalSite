@@ -6,6 +6,7 @@
  */
 
 ?>
+		<div class="grid-container">
 			<footer class="grid-x align-middle">
 				<div class="cell large-2 medium-4">
 					<?php if ( is_customize_preview() || get_theme_mod( 'footer_link_url' ) ) : ?>

@@ -24,3 +24,4 @@
 					<?php get_template_part( 'partials/language-switcher' ); ?>
 				</nav>
 			</header>
+		</div>
