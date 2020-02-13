@@ -32,8 +32,8 @@ get_header(); ?>
 			<div class="grid-container">
 				<div class="grid-x grid-margin-x project-info">
 				<div class="cell large-3 medium-10 small-12">
-					<div class="stakeholders float-left">
 					<?php if ( ! empty( $post->portfolio_client_name ) ) : ?>
+					<div class="stakeholders float-left">
 					<h3>Stakeholder</h3>
 					<!-- <a href="#">Dirección de transporte público metropolitano</a> -->
 					<?php echo esc_html( $post->portfolio_client_name ); ?>
