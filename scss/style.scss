@@ -57,6 +57,7 @@ body {
   letter-spacing: -0.01em;
   background-color: $background-color;
   margin: 0;
+  overflow-x: hidden;
   p {
     margin: 0;
   }
@@ -222,7 +223,8 @@ h3 { font-size: $h3; letter-spacing: $narrow; }
       line-height: 1.6em;
       margin: $unit * 4 0;
     }
-    blockquote {
+    blockquote,
+    .wp-block-quote {
       margin: $unit*5 0;
       padding: $unit*4 $unit*5;
       background-color: white;
@@ -303,10 +305,14 @@ h3 { font-size: $h3; letter-spacing: $narrow; }
   .img-margin {
     margin: $unit*9 0;
   }
-  .project-outcomes p {
+  .wp-block-quote,
+  .project-outcomes {
     margin: $unit*3 0 0;
     padding: $unit*4 $unit*5;
     background-color: white;
+    p:first-child {
+      margin-top: 0;
+    }
   }
 }
 

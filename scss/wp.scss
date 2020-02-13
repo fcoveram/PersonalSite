@@ -1,0 +1,25 @@
+.wp-block-image img {
+	border: 7px solid white;
+	display: table;
+}
+.alignwide,
+.alignfull {
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: none;
+}
+.alignfull img {
+	border: none;
+}
+@media ( min-width: 960px ) {
+	.alignwide {
+		width: 80vw;
+		margin-left: -40vw;
+		margin-right: -40vw;
+	}
+
+}
